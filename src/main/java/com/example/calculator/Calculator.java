@@ -23,9 +23,6 @@ public class Calculator {
         StringBuilder digits = "".equals("") ? new StringBuilder() : new StringBuilder();
         Double value = null;
 
-        String operator = "";
-        Double operand = null;
-
         OperFrame[] operStack = new OperFrame[formula.length() + 10];
         int operTop = -1;
 
