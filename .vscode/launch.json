@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Calculator",
+            "request": "launch",
+            "mainClass": "com.example.calculator.Calculator",
+            "projectName": "java-console-calculator"
+        }
+    ]
+}
